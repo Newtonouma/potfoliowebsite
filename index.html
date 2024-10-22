@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        section{
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-xxl">
+      <a class="navbar-brand" href="#intro">
+          <span class="fw-bold text-secondary">
+              Newton Armstrong
+          </span>        
+      </a>
+
+      <!--toggle button for mobile nav-->    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#aboutme">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/PUBLIC/contacts.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+ <section id="intro">
+    <!--introduction-->
+    <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+                <h1>
+                    <div class="display-2">Hello,<br>I Am A Web Developer</div>
+                </h1>
+                <p class="lead my-4 text-muted">I'm a passionate web developer dedicated to crafting dynamic and user-friendly websites that bring ideas to life</p>
+                <a href="#learnmore" class="btn btn-secondary btn-lg">LEARN MORE</a>
+                <a href="#hiremme" class="btn btn-secondary btn-lg">HIRE ME</a>
+            </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+                <img class="img-fluid" src="/ASSETS/profile.jpg" alt="profile">
+            </div>
+        </div>
+    </div>
+    <!--about me section-->
+    <div class="container">
+      <div id="aboutme" class="row justify-content-center align-items-center row-cols-1 row-cols-lg-5 g-2 g-lg-3">
+        <div class="col">
+          <div class="p-3">
+            <div class="col-12 my-3"> <!-- First section -->
+              <h1 style="color: #007bff; font-size: 23px;" class="fw-semibold">I'm a Passionate Web Designer</h1>
+              <p style="font-size: 16px;" class="lead text-secondary">
+                  I’m dedicated to creating visually appealing and user-friendly web designs that resonate with users. My goal is to blend aesthetics with functionality, ensuring every website I craft not only looks great but also performs seamlessly.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3">
+            <div class="col-12 my-3"> <!-- Second section -->
+              <h1 style="color: #007bff; font-size: 23px;" class="fw-semibold">Smart Work</h1>
+              <p style="font-size: 16px;" class="lead text-secondary">
+                  I create high-quality websites efficiently by using modern frameworks and tools to streamline development. My smart approach involves automating tasks and solving problems quickly, ensuring timely project delivery without sacrificing quality.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="p-3">
+            <div class="col-12 my-3"> <!-- Third section -->
+              <h1 style="color: #007bff; font-size: 23px;" class="fw-semibold">Modern Work</h1>
+              <p style="font-size: 16px;" class="lead text-secondary">
+                  I develop responsive and dynamic websites using modern web technologies to ensure seamless user experiences across all devices. With expertise in both front-end and back-end development.
+              </p>
+          </div>  
+          </div>
+        </div>
+      </div>
+    </div>    
+  </section>  
+
+  <div class="container">
+    <div class="row row-cols-2 justify-content-center align-items-center">
+      <div class="col">
+        <div class="p-3 border ">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      front-end
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      back-end
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      servers
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 border">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                       Research
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Football
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Dancing
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+              </div>
+           </div>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer section -->
+    <footer style="background-color: black; color: white;">
+      <div class="container">
+        <div class="row justify-content-center align-items-center row-cols-1 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col">
+            <div class="p-3">
+              <div class="col-12 my-3">
+                <h1 style="background-color: black; color: white; font-size: 23px;" class="fw-semibold">I'm a Passionate Web Designer</h1>
+                <p style="font-size: 16px; background-color:  black; color: white;">
+                    I’m dedicated to creating visually appealing and user-friendly web designs that resonate with users. My goal is to blend aesthetics with functionality, ensuring every website I craft not only looks great but also performs seamlessly.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+              <div class="col-12 my-3"> 
+                <ul class="list-group">                
+                  <li style="background-color: black; color: white;" class="list-group-item">Email: armstrongnewton02@gmail</li>
+                  <li style="background-color: black; color: white;" class="list-group-item">Phone  0745333477/0714453369</li>
+                  <li style="background-color: black; color: white;" class="list-group-item">Addres: 00600</li>
+                  <li style="background-color: black; color: white;" class="list-group-item">Nairobi</li>
+                </ul>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>       
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
